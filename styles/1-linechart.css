@@ -1,6 +1,18 @@
-#chart {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#header {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   margin: 20px;
+}
+
+#description, #chart {
+  font-family: 'Roboto Mono', monospace;
+  margin: 20px;
+}
+
+#description > p {
+  font-size: 14px;
 }
