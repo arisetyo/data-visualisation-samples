@@ -1,0 +1,9 @@
+/**
+ * Stylesheet for the chart
+ * */
+
+svg {
+  background-color: darkcyan;
+  stroke: rebeccapurple;
+  border-radius: 2px;
+}

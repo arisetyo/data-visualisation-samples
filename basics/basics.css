@@ -8,9 +8,16 @@
   margin: 20px;
 }
 
-#description, #chart {
+#description, #chart, #manipulate {
   font-family: 'Roboto Mono', monospace;
   margin: 20px;
+}
+
+code {
+  margin: 20px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 #description > p {

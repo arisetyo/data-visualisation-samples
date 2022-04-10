@@ -1,0 +1,38 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 20px 0 0 20px;
+}
+
+#header {
+  margin: 20px;
+}
+
+#description, .container {
+  font-family: 'Roboto Mono', monospace;
+  margin: 20px;
+}
+
+code {
+  margin: 20px 0;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#description > p {
+  font-size: 14px;
+}
+
+.chartContainer {
+  display: flex;
+}
+
+.chartContainer > .container > .chart {
+  margin-bottom: 20px;
+}

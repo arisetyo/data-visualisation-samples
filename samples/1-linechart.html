@@ -8,17 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link id="index-css" rel="stylesheet" href="./samples.css" nonce="">
   </head>
   <body>
     <div id="header">
       <a href="..">back to home</a>
-      <h1>Simple line chart <em>(TBA)</em></h1>
     </div>
+    <h1>Simple line chart</h1>
+
     <div id="description">
-      <p>Description: a simple line chart</p>
-      <p>Data source: a variable containing an array (tba: use separate JSON file)</p>
+      <p>A simple line chart</p>
+      <p>Data:</p>
+      <code>
+        [23, 18, 16, 10, 15, 20, 22, 19, 21, 22]
+      </code>
     </div>
-    <div id="chart"></div>
-    <script type="module" src="/charts/1-linechart.js"></script>
+
+    <h2>Charts</h2>
+    
+    <div class="chartContainer">
+      <div class="container">
+        <div id="chart-A" class="chart"></div>
+        <code>
+          d3.curveLinear
+        </code>
+      </div>
+      <div class="container">
+        <div id="chart-B" class="chart"></div>
+        <code>
+          d3.curveMonotoneX
+        </code>
+      </div>
+      <div class="container">
+        <div id="chart-C" class="chart"></div>
+        <code>
+          d3.curveStepBefore
+        </code>
+      </div>
+    </div>
+    
+    <script type="module" src="./1-linechart.js"></script>
   </body>
 </html>
